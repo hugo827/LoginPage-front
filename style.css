@@ -1,0 +1,85 @@
+html {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body{
+    background-image: url('data/bg-vid.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.label {
+    text-align: left;
+    font-size: 22px;
+}
+
+
+.login-container {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20vh 30vh;
+    padding: 50px 40px;
+    float:  right;
+    color:  white;
+    text-align: center;
+}
+
+.login-title {
+    padding-bottom: 30px;
+     font-size: 26px;
+}
+
+
+.text {
+   width: 300px;
+   height: 30px;
+   border-radius: 50px;
+   margin: 5px 0 20px 0;
+}
+
+.text:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color:  white;
+}
+
+/* https://cssbuttons.app/buttons/24 */
+.button {
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin:  20px;
+    text-align: center;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    border:  none;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+     background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+.button:hover {
+     background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
